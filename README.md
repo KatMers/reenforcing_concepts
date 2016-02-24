@@ -22,7 +22,11 @@ $ git add .
 Open your Git page, create and name a new repository.
 
 3. Remove the original origin.
+$ git remote rm origin
 
 4. Commit your changes.
+$ git rm add origin (new repository address here)
+$ git commit -am "explain what you changed here"
 
 5. Push to your new repository.
+$ git push origin master
